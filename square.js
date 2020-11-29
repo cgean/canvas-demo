@@ -10,7 +10,7 @@ class Square extends Figure {
         this.left();        
     }
 
-    drawFigure() {
+    setContextForm() {
         this.ctx.rect(this.x, this.y, this.widthSquare, this.widthSquare)
     }
     
