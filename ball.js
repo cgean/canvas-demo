@@ -4,7 +4,7 @@ class Ball extends Figure {
        super(ctx, x, y, color);
     }
 
-    drawFigure() {
+    setContextForm() {
         this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false)
     }
 

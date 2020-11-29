@@ -9,7 +9,7 @@ class Cloud extends Figure {
         this.left();        
     }
 
-    drawFigure() {
+    setContextForm() {
         this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false)
         this.ctx.arc(this.x - 20, this.y, this.radius * 0.6, 0, 2 * Math.PI, false)
         this.ctx.arc(this.x + 20, this.y, this.radius * 0.6, 0, 2 * Math.PI, false)
